@@ -1,6 +1,6 @@
 # KONTOUR STUDIOS
 
-High-end creative studio portfolio concept built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, Lenis and Lucide React.
+High-end creative studio portfolio built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, Lenis and Lucide React.
 
 ## Run locally
 
@@ -10,6 +10,13 @@ npm run dev
 ```
 
 Open http://localhost:3000
+
+## Checks
+
+```bash
+npm run typecheck
+npm run build
+```
 
 ## Production
 
@@ -23,3 +30,4 @@ npm start
 - Custom cursor is disabled on narrower/touch-oriented layouts.
 - `prefers-reduced-motion` is respected.
 - The hero uses a lightweight pointer-reactive CSS aura instead of Three.js to keep the landing page performant.
+- Deployment requires no environment variables. Import the repository in Vercel and keep the detected Next.js defaults.
